@@ -21,6 +21,14 @@
     box-shadow:0px 3px 0px #d66e13;
   }
 
+  button.uno {
+
+  }
+  
+  button.dos {
+      display: inline-block;
+  }
+
   .posiciones {
     color:rgb(4, 113, 119);
     padding: 15px;
