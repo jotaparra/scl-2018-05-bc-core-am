@@ -1,1 +1,11 @@
-/* Acá va tu código */
+* {
+    margin: 0px; 
+    padding: 0px;
+    text-align: center;
+  }
+
+  .cajadetexto {
+    margin: 20px;
+    display: block;
+    resize:none;
+  }
