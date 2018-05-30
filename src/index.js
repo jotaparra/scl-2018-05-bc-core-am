@@ -1,1 +1,3 @@
-/* Acá va tu código */
+function limpiarCuadro() {
+  document.getElementById("limpiar").value = "";
+  }

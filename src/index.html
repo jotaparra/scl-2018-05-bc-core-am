@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <div id="root"></div>
 <!-- header  -->
   <header id="encabezado">
@@ -22,13 +23,13 @@
 
 <!-- primera caja de texto -->
   <div class="cajadetexto">
-    <textarea rows="8" cols="90" name="text" max-lenght="100" placeholder="Mensaje"></textarea>
+    <textarea id="limpiar" rows="8" cols="90" name="text" maxlength="100" placeholder="Mensaje"></textarea>
   </div>
 
 <!-- botón reset -->
-  <div> 
-    <button class="button uno">Reset</button>
-  </div>
+<div> 
+  <button class="button uno" onclick="limpiarCuadro()">Reset</button>
+</div>
 
 <!-- offset -->
   <div class="posiciones"><p>Número de posiciones a desplazar <input type="text" size="1" maxlength="2" name="nombredelacaja"></p> 
@@ -36,7 +37,7 @@
 
 <!-- segunda caja de texto -->
   <div class="cajadetexto">
-    <textarea textbox disabled="disabled" rows="8" cols="90" name="text" max-lenght="100" placeholder="Magia"></textarea>
+    <textarea textbox disabled="disabled" rows="8" cols="90" name="text" maxlength="100" placeholder="Magia"></textarea>
   </div>
 
 
