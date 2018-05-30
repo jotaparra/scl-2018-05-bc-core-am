@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div id="root"></div>
 <!-- header  -->
   <header id="encabezado">
@@ -14,44 +13,34 @@
         <h1>Código de César</h1>
     </div>
 </header>
-
 <!-- section -->
 <section>
   <div>
     <h2>Ingresa tu mensaje</h2>
   </div>
-
 <!-- primera caja de texto -->
   <div class="cajadetexto">
     <textarea id="limpiar" rows="8" cols="90" name="text" maxlength="100" placeholder="Mensaje"></textarea>
   </div>
-
 <!-- botón reset -->
 <div> 
   <button class="button uno" onclick="limpiarCuadro()">Reset</button>
 </div>
-
 <!-- offset -->
   <div class="posiciones"><p>Número de posiciones a desplazar <input type="text" size="1" maxlength="2" name="nombredelacaja"></p> 
   </div>
-
 <!-- segunda caja de texto -->
   <div class="cajadetexto">
     <textarea textbox disabled="disabled" rows="8" cols="90" name="text" maxlength="100" placeholder="Magia"></textarea>
   </div>
-
-
 <!-- botones -->
   <div> 
     <button class="button dos">Cifrar</button>   
     <button class="button dos">Descrifrar</button>   
   </div>
-
 </section>
-
 <!-- footer -->
 <footer>
-
 </footer>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
