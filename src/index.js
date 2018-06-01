@@ -8,7 +8,7 @@ window.onload = () => {
   document.getElementById("newText").innerHTML = result;
   }); 
 
- const btn2 = document.getElementById("decipherBtn");
+  const btn2 = document.getElementById("decipherBtn");
 
   btn2.addEventListener("click", () => {
   let message2 = document.getElementById('text').value;

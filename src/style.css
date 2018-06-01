@@ -1,53 +1,49 @@
 * {
-    margin: 0px; 
-    padding: 0px;
-    text-align: center;
+  margin: 0px; 
+  padding: 0px;
+  text-align: center;
   }
-
-  .cajadetexto {
-    margin: 20px;
-    display: block;
-    resize:none;
+body{
+  background:url(img/5570.jpg) no-repeat fixed center center;
+  background-size: cover;
   }
-
-  button {
-    background:#e67e22;
-    color:#C1E1DE;
-    font-size:1.25em;
-    margin:10px;
-    padding:10px 0px;
-    border:none;
-    width:200px;
-    box-shadow:0px 3px 0px #d66e13;
+.cajadetexto {
+  margin: 20px;
+  display: block;
+  resize:none;
   }
-  
-  button.dos {
-      display: inline-block;
+button {
+  background:#e67e22;
+  color:#C1E1DE;
+  font-size:1.25em;
+  margin:10px;
+  padding:10px 0px;
+  border:none;
+  width:200px;
+  box-shadow:0px 3px 0px #d66e13;
   }
-
-  .posiciones {
-    color:rgb(4, 113, 119);
-    padding: 15px;
+button.dos {
+  display: inline-block;
   }
-
-  #encabezado {
-    width: 100%;
-    background-color:#2A94A8;
-    padding-top:10px;
-    padding-left:5px;
-    padding-right:5px;
-    padding-bottom:10px;
-    margin-bottom:0px;
-    text-align:center;
-    color:#FFFFFF;
-    font-size:1.5em;
-   }
-    
-   div h2 {
-     color:rgb(4, 113, 119);
-     padding:40px 0px 10px; 
-   }
-   
-   textarea {
-     resize: none;
+.posiciones {
+  color:#FFFFFF;
+  padding: 15px;
+  }
+#encabezado {
+  width: 100%;
+  padding-top:10px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:10px;
+  margin-bottom:0px;
+  text-align:center;
+  color:#FFFFFF;
+  font-size:1.5em;
+  }
+div h2 {
+  padding:40px 0px 10px; 
+  color: rgb(215, 232, 238);
+  }
+textarea {
+  resize: none;
    }
