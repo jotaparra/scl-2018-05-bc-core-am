@@ -21,13 +21,13 @@
   </div>
 <!-- primera caja de texto -->
 <div class="cajadetexto">
-  <textarea id="text" rows="8" cols="90" name="text" maxlength="100" placeholder="Mensaje"></textarea>
+  <textarea id="text" rows="8" cols="90" maxlength="100" placeholder="Mensaje"></textarea>
 </div> <!-- para hacer reset antes había puesto <textarea id="limpiar"> ahora no se como hacerlo -->
-<!-- botón reset -->
+<!-- botón reset onclick="limpiarCuadro()"-->
 <div> 
-  <button class="button uno" onclick="limpiarCuadro()">Reset</button>
-</div>
-<!-- offset -->
+  <button id="reset" class="button uno">Reset</button>
+</div>  
+<!-- offset -->   
 <div class="posiciones"><p>Número de posiciones a desplazar <input type="text" id="offsetNumber" size="1" maxlength="2" name="nombredelacaja"></p> 
 </div>
 <!-- segunda caja de texto -->
