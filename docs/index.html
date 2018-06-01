@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Código de César</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+<body>
+  <div id="root"></div>
+<!-- header  -->
+  <header id="encabezado">
+    <div>
+        <h1>Código César</h1>
+    </div>
+</header>
+<!-- section -->
+<section>
+  <div>
+    <h2>Ingresa tu mensaje</h2>
+  </div>
+<!-- primera caja de texto -->
+<div class="cajadetexto">
+  <textarea id="text" rows="8" cols="90" maxlength="100" placeholder="Mensaje"></textarea>
+</div> <!-- para hacer reset antes había puesto <textarea id="limpiar"> ahora no se como hacerlo -->
+<!-- botón reset onclick="limpiarCuadro()"-->
+<div> 
+  <button id="reset" class="button uno">Reset</button>
+</div>  
+<!-- offset -->   
+<div class="posiciones"><p>Número de posiciones a desplazar <input type="text" id="offsetNumber" size="1" maxlength="2" name="nombredelacaja"></p> 
+</div>
+<!-- segunda caja de texto -->
+<div class="cajadetexto">
+  <textarea id = "newText" textbox disabled="disabled" rows="8" cols="90" name="text" maxlength="100" placeholder="Resultado"></textarea>
+</div>
+<!-- botones -->
+<div> 
+  <button id= "cipherBtn" class="button dos">Cifrar</button>   
+  <button id= "decipherBtn" class="button dos">Descrifrar</button>   
+</div>
+</section>
+<!-- footer -->
+<footer>
+</footer>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
