@@ -6,6 +6,7 @@
 body{
   background:url(img/5570.jpg) no-repeat fixed center center;
   background-size: cover;
+  font-family: 'Share Tech Mono', monospace;
   }
 .cajadetexto {
   margin: 20px;
@@ -41,7 +42,7 @@ button.dos {
   font-size:1.5em;
   }
 div h2 {
-  padding:40px 0px 10px; 
+  padding:30px 0px 10px; 
   color: rgb(215, 232, 238);
   }
 textarea {
